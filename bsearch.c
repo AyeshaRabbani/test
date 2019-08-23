@@ -1,5 +1,10 @@
 #include<stdio.h>
 #include<stdlib.h>
+
+void getdata()
+{
+  printf("getdata"):
+}
 int binary(int a[100],int low,int high,int key)
 {
   if(low<=high)
@@ -21,6 +26,7 @@ int binary(int a[100],int low,int high,int key)
 int main(void)
 {
   int n,a[100],k,pos,i;
+  getdata();
   printf("\n enter the number of element ");
   scanf("%d",&n);
   printf("\n enter elements ");
